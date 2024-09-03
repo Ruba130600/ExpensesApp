@@ -8,6 +8,7 @@ import './App.css';
 import { GlobalProvider } from './context/GlobalState';
 
 function App() {
+  // demo comments
   return (
     <GlobalProvider>
      <Header />
