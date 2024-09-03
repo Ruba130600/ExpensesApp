@@ -5,7 +5,7 @@ import axios from "axios";
 export default function AddTransaction() {
   const mockApiurl = "https://66c327afd057009ee9bf3ee0.mockapi.io/idm_tech_park/testing";
   const [text, setText] = useState('');
-  const [amount, setAmount] = useState(0);
+  const [amount, setAmount] = useState();
   const [view, setView] = useState([]);
 
   const { addTransaction } = useContext(GlobalContext);
