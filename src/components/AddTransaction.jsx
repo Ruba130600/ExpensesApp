@@ -22,7 +22,7 @@ export default function AddTransaction() {
 
 
   const del = (id) => {
-    axios.delete(`/${id}`)
+    axios.delete(`${mockApiurl}/${id}`)
       .then(() => {
         setView(view.filter(item => item.id !== id));
         alert("Data deleted");
